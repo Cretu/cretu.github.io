@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>江不白谈生活</title>
+  
+  <subtitle>不负责</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="cretu.github.io/"/>
+  <updated>2017-12-20T07:48:59.587Z</updated>
+  <id>cretu.github.io/</id>
+  
+  <author>
+    <name>不白</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>aboutme</title>
+    <link href="cretu.github.io/2017/12/20/aboutme/"/>
+    <id>cretu.github.io/2017/12/20/aboutme/</id>
+    <published>2017-12-20T07:47:57.000Z</published>
+    <updated>2017-12-20T07:48:59.587Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;It’s-me-Bubai-Jiang&quot;&gt;&lt;a href=&quot;#It’s-me-Bubai-Jiang&quot; class=&quot;headerlink&quot; title=&quot;It’s me Bubai Jiang&quot;&gt;&lt;/a&gt;It’s me Bubai
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="cretu.github.io/2017/12/20/hello-world/"/>
+    <id>cretu.github.io/2017/12/20/hello-world/</id>
+    <published>2017-12-20T07:45:02.581Z</published>
+    <updated>2017-03-22T12:08:02.137Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;https://portablehexo.bitmoe.cn/hexopp/hexop.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本版本仅适用于Win环境&lt;/strong&gt;&lt;br&gt;本文关键字：
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
