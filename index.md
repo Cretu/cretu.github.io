@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Luke Digital Garden"
-  text: "Luke's Digital Garden"
-  tagline: My great project tagline
+  name: "记录人生的乐趣"
+  text: "得之我幸，失之我命"
+  tagline: 欢迎👏关注我的数字人生乐园
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,7 +15,7 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: 实事求是
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: Feature B
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit

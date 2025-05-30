@@ -2,13 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Luke Digital Garden",
-  description: "Luke's Digital Garden",
+  title: "Luke's Digital Garden",
+  description: "得之我幸，惟吾德馨",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '观点', link: '/markdown-examples' }
     ],
 
     sidebar: [
@@ -22,7 +22,12 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      { icon: 'github', link: 'https://github.com/Cretu' }
+    ],
+
+    // 搜索配置
+    search: {
+      provider: 'local'
+    }
   }
 })
