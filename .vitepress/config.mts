@@ -4,6 +4,12 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Luke's Digital Garden",
   description: "得之我幸，惟吾德馨",
+  // base: '/digital-garden/',
+  cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
