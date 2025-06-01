@@ -7,7 +7,7 @@ hero:
   text: "得之我幸，失之我命"
   tagline: 欢迎👏关注我的数字人生乐园
   image:
-    src: asset/keep_passoin.png
+    src: /keep_passoin.png
     alt: 保持热爱
   actions:
     - theme: brand
