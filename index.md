@@ -30,17 +30,24 @@ features:
   - icon: 🛠️
     title: 谦虚谨慎
     details: 谦虚是一种态度，而不是一种心态
-  - icon: 🛠️
-    title: 积极乐观
-    details: 积极是一种态度，而不是一种心态
 
 ---
 
-## Getting Started
+<script setup>
+import { VPTeamMembers } from 'vitepress/theme'
 
-You can get started using VitePress right away using `npx`!
+const members = [
+  {
+    avatar: 'https://cdn.yitang.top/homework/prod/db7ab71265308687b1186584798c54eb.png',
+    name: 'Luke Jiang',
+    title: 'Freelancer / Writer / Programmer / Enteruprear',
+    links: [
+      { icon: 'github', link: 'https://github.com/Cretu' },
+      { icon: 'twitter', link: 'https://twitter.com/Cretu' }
+    ]
+  }
+]
+</script>
 
-```sh
-npm init
-npx vitepress init
-```
+### 我的名片
+<VPTeamMembers size="small" :members="members" />
