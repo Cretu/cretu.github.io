@@ -9,3 +9,19 @@ editLink: false
 ---
 
 ### 记录生活的点点滴滴
+
+:::: tabs
+
+::: tab First tab
+
+First tab content
+
+:::
+
+::: tab "Second tab"
+
+Second tab content
+
+:::
+
+::::
