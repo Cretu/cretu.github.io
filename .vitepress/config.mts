@@ -23,13 +23,16 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    siteTitle: "LDG<Badge type='warning' text='beta' />",
     logo: {
       src: '/Luke-avatar.png',
       alt: 'Luke Jiang'
     },
     nav: [
       { text: '首页', link: '/' },
-      { text: '日志', link: '/note' }
+      { text: '日志', link: '/note' },
+      { text: '领域', link: '/area' },
+      { text: '<Badge type="warning" text="beta" />', link: '/reference' }
     ],
 
     // sidebar: {
@@ -43,7 +46,11 @@ export default defineConfig({
     ], ""), 
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/Cretu' }
+      { icon: 'github', link: 'https://github.com/Cretu' },
+      { icon: 'twitter', link: 'https://twitter.com/Cretu' }, 
+      { icon: 'wechat', link: 'https://chat.vitejs.dev/Cretu' }, 
+      { icon: 'tiktok', link: 'https://chat.vitejs.dev/Cretu' }, 
+      { icon: 'linkedin', link: 'https://chat.vitejs.dev/Cretu' }, 
     ],
 
     footer: {

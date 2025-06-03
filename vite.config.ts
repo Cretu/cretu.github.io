@@ -26,5 +26,8 @@ export default {
           },
         ],
     })
-  ]
+  ],
+  optimizeDeps: {
+    include: ['recaptcha-v3']
+  } 
 }

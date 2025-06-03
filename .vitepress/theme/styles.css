@@ -2,6 +2,8 @@
     --vp-font-family-base:
       'Vazirmatn', 'Inter', ui-sans-serif, system-ui, sans-serif,
       'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    --Announcement-bg: var(--vp-button-alt-bg);
+    --Announcement-bg-hover: var(--vp-c-brand-soft);
   }
   
   :root {
