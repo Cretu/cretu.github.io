@@ -17,6 +17,10 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      src: '/Luke-avatar.png',
+      alt: 'Luke Jiang'
+    },
     nav: [
       { text: '首页', link: '/' },
       { text: '日志', link: '/note' }
