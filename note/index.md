@@ -6,6 +6,7 @@ prev: false
 next: false
 comment: false
 editLink: false
+outline: [deep, 2]
 ---
 
 ### 记录生活的点点滴滴

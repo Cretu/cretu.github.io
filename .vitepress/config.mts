@@ -2,6 +2,8 @@ import { defineConfig , DefaultTheme} from 'vitepress'
 import { calculateSidebar as originalCalculateSidebar } from "@nolebase/vitepress-plugin-sidebar"
 import tabsPlugin from '@red-asuka/vitepress-plugin-tabs'
 
+import pkg from '../package.json'
+const version = `v` + pkg.version
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Luke's Digital Garden",
@@ -23,7 +25,7 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    siteTitle: "LDG<Badge type='warning' text='beta' />",
+    siteTitle: `LDG<code class="VPBadge tip">${version}</code>`,
     logo: {
       src: '/Luke-avatar.png',
       alt: 'Luke Jiang'
@@ -45,6 +47,9 @@ export default defineConfig({
       { folderName: 'area', separate: true }, 
     ], ""), 
 
+    outline: 'deep',
+    outlineTitle: '页面导航',
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Cretu' },
       { icon: 'twitter', link: 'https://twitter.com/Cretu' }, 
@@ -60,10 +65,6 @@ export default defineConfig({
     docFooter: {
       prev: '上一页',
       next: '下一页'
-    },
-
-    outline: {
-      label: '页面导航'
     },
 
     lastUpdated: {

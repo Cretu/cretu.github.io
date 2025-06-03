@@ -3,8 +3,9 @@
 layout: home
 
 hero:
-  name: 记录人生的乐趣
-  text: 得之我幸，失之我命
+  name: 陆可的人生乐趣
+  text: 记录人生
+  textsuffix: 得意须尽欢
   tagline: 欢迎👏关注我的数字人生乐园
   image:
     src: /keep_passoin.png
@@ -118,6 +119,8 @@ const items = [
   }
 ]
 </script>
+
+<Home />
 
 ### 我的社交
 <Box :items="items" />
